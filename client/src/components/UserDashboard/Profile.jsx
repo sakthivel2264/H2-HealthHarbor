@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Profile = () => {
   const { user } = useAuth();
   return (
-    <div className="container my-2">
-      <div className=" p-5 bg-body ">
+    <div className="container my-2 profile w-100 ">
+      <div className=" p-5 bg-body shadow-lg rounded-3 ">
         <h1 className="  fw-semibold">Profile</h1>
         <p className=" mb-4">Name: {user.username}</p>
         <p className=" mb-4">Email: {user.email}</p>
