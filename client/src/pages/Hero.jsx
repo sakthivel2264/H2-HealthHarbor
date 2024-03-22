@@ -1,9 +1,11 @@
 import './Hero.css'
 import image from '../images/heroimg.png'
 import {Link} from 'react-router-dom'
+import FastBot from '../components/FastBot/Fastbot'
 
 const Hero = () => {
     return (
+        <>
       <section className="hero">
         <div className="hero-content">
           <h1>
@@ -23,7 +25,9 @@ const Hero = () => {
             alt="hero"      
           />
         </div>
+        <FastBot/>
       </section>
+      </>
     )}
 
 export default Hero

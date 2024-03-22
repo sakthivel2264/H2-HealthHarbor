@@ -1,0 +1,50 @@
+.floating-bot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  .bot-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .bot-icon:hover {
+    background-color: #0056b3;
+  }
+  
+  .open {
+    width: 400px;
+    height: 600px;
+  }
+  
+  .open .bot-icon {
+    display: none;
+  }
+
+  /* CSS for the close button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    color: #555; /* Adjust color as needed */
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .close-btn:hover {
+    color: #777; /* Adjust hover color as needed */
+  }
+  
+  

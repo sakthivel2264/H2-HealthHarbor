@@ -11,7 +11,7 @@ const UserProfile = () => {
         aria-expanded="true"
       >
         <img
-          src="https://github.com/mdo.png"
+          src="https://tse2.mm.bing.net/th?id=OIP.x7X2oAehk5M9IvGwO_K0PgHaHa&pid=Api&P=0&h=220"
           alt=""
           width="32"
           height="32"

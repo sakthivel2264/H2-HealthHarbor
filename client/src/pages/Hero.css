@@ -42,10 +42,11 @@
 }
 
 .hero-img img {
-  width: 100%;
-  min-height: 360px;
+  max-width: 680px;
+  min-height: 420px;
   border-radius: 15px;
   filter: drop-shadow(0 0 8px black);
+  margin-left: 8%;
 }
 
 .about {
