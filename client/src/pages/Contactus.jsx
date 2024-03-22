@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useAuth } from "../store/auth";
+import FastBot from "../components/FastBot/Fastbot";
 const Contactus = () => {
   const [contact, setContact] = useState({
     username: "",
@@ -169,6 +170,7 @@ const Contactus = () => {
           </div>
         </div>
       </div>
+      <FastBot/>
     </>
   );
 };

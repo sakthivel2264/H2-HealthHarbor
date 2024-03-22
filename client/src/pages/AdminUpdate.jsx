@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useAuth } from "../store/auth";
 import { toast } from "react-toastify";
+import FastBot from "../components/FastBot/Fastbot";
 const AdminUpdate = () => {
   const [user, setUser] = useState({
     username: "",
@@ -130,6 +131,7 @@ const AdminUpdate = () => {
           </form>
         </div>
       </div>
+      <FastBot/>
     </div>
   );
 };

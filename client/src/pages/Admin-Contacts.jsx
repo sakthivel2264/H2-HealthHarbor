@@ -8,6 +8,7 @@ import { FaRegUserCircle } from "react-icons/fa";
 import { MdMessage } from "react-icons/md";
 import { GrAttachment } from "react-icons/gr";
 import { FaInfoCircle } from "react-icons/fa";
+import FastBot from "../components/FastBot/Fastbot";
 
 const AdminContacts = () => {
   const [contacts, setContacts] = useState([]);
@@ -105,6 +106,7 @@ const AdminContacts = () => {
           </tbody>
         </table>
       </div>
+      <FastBot/>
     </>
   );
 };

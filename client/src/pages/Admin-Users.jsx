@@ -7,6 +7,7 @@ import { FaEdit } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaRegUserCircle } from "react-icons/fa";
+import FastBot from "../components/FastBot/Fastbot";
 
 const AdminUsers = () => {
   const [users, setUsers] = useState([]);
@@ -101,6 +102,7 @@ const AdminUsers = () => {
           </tbody>
         </table>
       </div>
+      <FastBot/>
     </>
   );
 };

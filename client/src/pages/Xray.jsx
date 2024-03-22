@@ -3,6 +3,7 @@ import TestsCard from "../components/Card/TestsCard";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import FastBot from "../components/FastBot/Fastbot";
 
 const Xray = () => {
   AOS.init({
@@ -74,11 +75,11 @@ const Xray = () => {
       <h1 className="text-center text-primary fw-bold my-2">
         Test <span className="text-warning">&</span> Scans
       </h1>
-      {/* <div >
+      <div >
         {TestData.map((test, index) => (
           <TestsCard key={index} {...test} />
         ))}
-      </div> */}
+      </div>
       <div>
         {TestData.map((test, index) => (
           <div
@@ -89,6 +90,7 @@ const Xray = () => {
           </div>
         ))}
       </div>
+      <FastBot/>
     </>
   );
 };

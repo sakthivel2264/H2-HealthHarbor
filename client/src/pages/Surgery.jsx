@@ -1,4 +1,5 @@
 import React from "react";
+import FastBot from "../components/FastBot/Fastbot";
 const Surgery = () => {
   return (
     <div
@@ -69,6 +70,7 @@ const Surgery = () => {
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>
+      <FastBot/>
     </div>
     
   );

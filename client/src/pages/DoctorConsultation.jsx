@@ -1,5 +1,6 @@
 import React from "react";
 import DoctorConsultationCard from "../components/Card/DoctorConsultationCard";
+import FastBot from "../components/FastBot/Fastbot";
 const DoctorConsultation = () => {
   const doctorsData = [
     {
@@ -77,6 +78,7 @@ const DoctorConsultation = () => {
         <DoctorConsultationCard key={index} {...doctor}  />
       ))}
     </div>
+    <FastBot/>
     </>
    
   );

@@ -2,6 +2,7 @@ import React from "react";
 import DoctorProfile from "../components/Card/DoctorProfile";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import FastBot from "../components/FastBot/Fastbot";
 const Doctors = () => {
   AOS.init({
     delay: 400,
@@ -81,6 +82,7 @@ const Doctors = () => {
           languagesSpoken="English, Mandarin"
         />
       </div>
+      <FastBot/>
     </>
   );
 };

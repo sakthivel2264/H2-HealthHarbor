@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../store/auth";
 import { toast } from "react-toastify";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 
 const Login = () => {
   // Handling login form
@@ -156,9 +157,12 @@ const Login = () => {
             >
               Submit
             </button>
+            <Link to="/Signup" className="">Signup</Link>
           </form>
+         
         </div>
       </div>
+      
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useAuth } from "../store/auth";
+import FastBot from "../components/FastBot/Fastbot";
 
 const AdminAppointmentDetails = () => {
   const [appointment, setAppointment] = useState(null);
@@ -145,6 +146,7 @@ const AdminAppointmentDetails = () => {
           <p className="card-text">Phone: {appointment.phone}</p>
         </div>
       </div>
+      <FastBot/>
     </div>
   );
 };
