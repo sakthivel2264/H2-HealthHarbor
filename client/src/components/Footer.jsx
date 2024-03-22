@@ -5,14 +5,8 @@ const Footer = () => {
     <footer className="rounded-5 shadow  px-4  bg-light">
       <div className="row">
         <div className="col-12 mb-4 ">
-          <img
-            src="/images/homepage/logo2.png"
-            alt=""
-            width={200}
-            height={75}
-            className="mb-3 "
-          />
-          <small className="d-block text-muted mx-4">© 2017–2023</small>
+        <h2 className="logo-h1">H²-HealthHarbor</h2>
+          <small className="d-block text-muted mx-4">&copy; {new Date().getFullYear()}</small>
         </div>
 
         <div className="col-12 col-md-6 col-lg-3 mb-4">
