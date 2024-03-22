@@ -72,6 +72,12 @@
   .hero-content h1 {
     text-align: center;
   }
+  .hero-img img {
+    width: 450px;
+    height: 150px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
   .about-heading {
     margin-top: 4rem;
   }
