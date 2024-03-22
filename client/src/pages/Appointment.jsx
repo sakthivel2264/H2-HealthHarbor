@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { toast } from "react-toastify";
+import FastBot from "../components/FastBot/Fastbot";
 const Appointment = () => {
   const [showCancellationPolicy, setShowCancellationPolicy] = useState(false);
 
@@ -504,6 +505,7 @@ const Appointment = () => {
           </button>
         </form>
       </div>
+      <FastBot/>
     </>
   );
 };

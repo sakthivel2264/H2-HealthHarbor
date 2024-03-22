@@ -1,8 +1,9 @@
 import React from "react";
+import FastBot from "../components/FastBot/Fastbot";
 
 const BloodTest = () => {
   return (
-    <div className="bg-primary text-white m-4 border rounded-5 ">
+    <div className="bg-primary-subtle  text-black m-5 border rounded-5 ">
       <div className="container">
         <h1 className="text-center my-2 fw-bold">
           The Excellence of{" "}
@@ -21,8 +22,8 @@ const BloodTest = () => {
               8. Contribution to Healthcare <hr />
               9. Positive Feedback <hr />
             </p>
-            <button className="btn btn-danger  mb-2  mx-4">Know More</button>
-            <button className="btn btn-warning  mb-2  mx-4">Book Blood Test</button>
+            <button className="btn btn-outline-danger  mb-2  mx-4">Know More</button>
+            <button className="btn btn-outline-warning  mb-2  mx-4">Book Blood Test</button>
           </div>
           <div className="col-md-6">
             <img
@@ -33,6 +34,7 @@ const BloodTest = () => {
           </div>
         </div>
       </div>
+      <FastBot/>
     </div>
   );
 };

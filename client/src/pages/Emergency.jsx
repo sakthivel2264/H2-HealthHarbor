@@ -1,4 +1,5 @@
 import React from "react";
+import FastBot from "../components/FastBot/Fastbot";
 
 const Emergency = () => {
   return (
@@ -102,11 +103,12 @@ const Emergency = () => {
           <div className="card shadow-sm mb-4">
             <div className="card-body">
               <h2 className="card-title">Contact</h2>
-              <p>Phone: (123) 456-7890 Email: healthify@gmail.com</p>
+              <p>Phone: (123) 456-7890 Email: HealthHarbor@gmail.com</p>
             </div>
           </div>
         </div>
       </div>
+      <FastBot/>
     </div>
   );
 };

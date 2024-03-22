@@ -172,12 +172,12 @@ const Home = () => {
         <div className="container">
           <h1 className="text-center my-4 fw-bold p-1">
             The Excellence of
-            <span className="text-warning mx-2">Healthify Labs</span>
+            <span className="text-warning mx-2">HealthHarbor Labs</span>
           </h1>
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-md-6">
               <p>
-                Healthify is one of the most trusted players in diagnostics
+                HealthHarbor is one of the most trusted players in diagnostics
                 today, with a network of fully automated labs across major
                 cities in India, that are hardcoded with innovative technology,
                 advanced robotics, and intelligent digital solutions.

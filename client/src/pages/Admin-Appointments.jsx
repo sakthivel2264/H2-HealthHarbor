@@ -10,6 +10,7 @@ import { FaInfoCircle } from "react-icons/fa";
 import { VscGroupByRefType } from "react-icons/vsc";
 import { MdDelete } from "react-icons/md";
 import { FaRegUserCircle } from "react-icons/fa";
+import FastBot from "../components/FastBot/Fastbot";
 
 const AdminAppointments = () => {
   const { AuthorizationToken } = useAuth();
@@ -120,6 +121,7 @@ const AdminAppointments = () => {
           </tbody>
         </table>
       </div>
+      <FastBot/>
     </>
   );
 };

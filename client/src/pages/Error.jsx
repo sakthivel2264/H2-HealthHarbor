@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../index.css";
+import FastBot from "../components/FastBot/Fastbot";
 const Error = () => {
   
   return (
@@ -15,6 +16,7 @@ const Error = () => {
          <Link to={"/"}> <button className="btn  btn-primary">Go To Homepage</button></Link>
         </div>
       </div>
+      <FastBot/>
     </>
   );
 };

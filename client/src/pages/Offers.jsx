@@ -1,5 +1,6 @@
 import React from "react";
 import OfferCard from "../components/Card/OfferCard";
+import FastBot from "../components/FastBot/Fastbot";
 const Offers = () => {
   return (
     <>
@@ -31,6 +32,7 @@ const Offers = () => {
           description="Book Health Test within 7 days of doctor consultation and get cashback of doctor consultation booking amount."
         />
       </div>
+      <FastBot/>
     </>
   );
 };

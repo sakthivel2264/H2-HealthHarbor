@@ -1,4 +1,5 @@
 import React from "react";
+import FastBot from "../components/FastBot/Fastbot";
 
 const Supplement = () => {
   const SupplementCard = ({ imgSrc, title, about }) => {
@@ -55,6 +56,7 @@ const Supplement = () => {
           }
         />
       </div>
+      <FastBot/>
     </>
   );
 };

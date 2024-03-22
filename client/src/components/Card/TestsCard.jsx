@@ -10,7 +10,7 @@ const TestsCard = ({
   linkHref,
 }) => {
   return (
-    <div class="card bg-primary text-white m-3 rounded-4 p-4 shadow">
+    <div class="card bg-primary-subtle  text-black m-5 rounded-4 p-4 shadow">
       <div class="container">
         <h1 class="text-center my-4 fw-bold">
           The Excellence of <span className="text-warning">{title}</span>
@@ -23,8 +23,8 @@ const TestsCard = ({
           </div>
           <div class=" col-12 col-md-8 ">
             <p class="fw-semibold ">{content}</p>
-            <button class="btn btn-danger mx-4 mb-2">{buttonText}</button>
-            <button className="btn btn-warning mx-4 ">Book Test </button>
+            <button class="btn btn-outline-danger  mx-4 mb-2">{buttonText}</button>
+            <button className="btn btn-outline-warning mx-4 ">Book Test </button>
           </div>
         </div>
       </div>
