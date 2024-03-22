@@ -13,14 +13,14 @@ const UserDashboard = () => {
         {/* Row 1 */}
         <div className="container px-2 py-2" id="featured-3">
           <div className="row g-4">
-            <div className="col col-md-6 col-lg-4">
+            <div className="col col-md-6 col-lg-4 ">
               <UserDashboardCard
                 imageSrc="/images/userDashboard/my-booking.png"
                 altText="my booking"
                 title="My Bookings"
               />
             </div>{" "}
-            <div className="col col-md-6 col-lg-4">
+            <div className="col col-md-6 col-lg-4 ">
               <UserDashboardCard
                 imageSrc="/images/userDashboard/report_icon.png"
                 altText="my report"

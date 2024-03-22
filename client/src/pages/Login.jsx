@@ -157,7 +157,7 @@ const Login = () => {
             >
               Submit
             </button>
-            <Link to="/Signup" className="">Signup</Link>
+            
           </form>
          
         </div>

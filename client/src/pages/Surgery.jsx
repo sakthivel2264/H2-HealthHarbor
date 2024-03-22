@@ -34,21 +34,21 @@ const Surgery = () => {
           <img
             src="/images/Surgery/Healthifysurgery1.png"
             alt="surgery"
-            className="d-block w-100"
+            className="d-block w-80"
           />
         </div>
         <div className="carousel-item">
           <img
             src="/images/Surgery/Healthifysurgery2.png"
             alt=""
-            className="d-block w-100"
+            className="d-block w-80"
           />
         </div>
         <div className="carousel-item">
           <img
             src="/images/Surgery/Healthifysurgery3.png"
             alt=""
-            className="d-block w-100"
+            className="d-block w-80 "
           />
         </div>
       </div>
