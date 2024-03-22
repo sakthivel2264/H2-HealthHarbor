@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <>
-      {/* why choose healthify
+      {/* why choose H² - HealthHarbor
        */}
       <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center ">
         <div className="row">
@@ -16,13 +16,13 @@ const About = () => {
                 marginBottom: "20px",
               }}
             >
-              Why Choose Healthify ?
+              Why Choose H² - HealthHarbor ?
             </h1>
             <p
               className="my-4"
               style={{ fontSize: "1.2rem", lineHeight: "1.5", color: "#333" }}
             >
-              Healthify is India's leading health test at home service offering
+              H² - HealthHarbor is India's leading health test at home service offering
               a wide range of health tests across 250+ cities of India, and
               counting. It has a network of state-of-the-art fully automated
               laboratories and a large team of highly skilled phlebotomists who
@@ -47,7 +47,7 @@ const About = () => {
               <img
                 className="img-fluid border rounded"
                 src="/images/team/whychoseapollo_ah.webp"
-                alt="Healthify Image"
+                alt="H² - HealthHarbor Image"
               />
             </div>
           </div>

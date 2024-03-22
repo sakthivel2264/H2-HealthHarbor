@@ -1,4 +1,4 @@
-import React from "react";
+
 import BottomNavbar from "../components/BottomNavbar";
 import MainCarousel from "../components/CarouselCard/MainCarousel";
 import Slider from "react-slick";
@@ -8,9 +8,9 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Home = () => {
   const carouselImages = [
-    "/images/carousel/carousel.jpg",
-    "/images/carousel/carosel2.jpg",
-    "/images/carousel/carosel3.jpg",
+    "",
+    "",
+    "",
   ];
 
   const cardsData = [
@@ -177,12 +177,12 @@ const Home = () => {
         <div className="container">
           <h1 className="text-center my-4 fw-bold p-1">
             The Excellence of
-            <span className="text-warning mx-2">Healthify Labs</span>
+            <span className="text-warning mx-2">H² - HealthHarbor Labs</span>
           </h1>
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-md-6">
               <p>
-                Healthify is one of the most trusted players in diagnostics
+                H² - HealthHarbor is one of the most trusted players in diagnostics
                 today, with a network of fully automated labs across major
                 cities in India, that are hardcoded with innovative technology,
                 advanced robotics, and intelligent digital solutions.

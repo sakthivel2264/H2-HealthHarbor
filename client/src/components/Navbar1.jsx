@@ -5,10 +5,10 @@ import UserProfile from "./UserDashboard/UserProfile";
 const Navbar1 = () => {
   const { isLoggedIn, user } = useAuth();
   return (
-    <nav className="navbar navbar-expand-lg bg-primary border-bottom sticky-top">
+    <nav className="navbar navbar-expand-lg header border-bottom sticky-top">
       <div className="container-fluid">
         <Link to="/">
-          <h1 className="logo-h1">H² - Harbor</h1>
+          <h2 className="logo-h1">H²-HealthHarbor</h2>
         </Link>
         <button
           className="navbar-toggler"
@@ -25,37 +25,37 @@ const Navbar1 = () => {
           <div className="container justify-content-center">
             <ul className="nav justify-content-evenly navbar-nav me-auto mb-2 mb-lg-0 fw-semibold">
               <li className="nav-item">
-                <Link to="/" className="nav-link active text-white">
+                <Link to="/" className="nav-link active text-black">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/about" className="nav-link text-white">
+                <Link to="/about" className="nav-link text-black">
                   About Us
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to={"/doctors"} className="nav-link text-white">
+                <Link to={"/doctors"} className="nav-link text-black">
                   Doctors
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to={"/patients"} className="nav-link text-white">
+                <Link to={"/patients"} className="nav-link text-black">
                   Patients
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to={"/appointment"} className="nav-link text-white">
+                <Link to={"/appointment"} className="nav-link text-black">
                   Appointment
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to={"/contactus"} className="nav-link text-white">
+                <Link to={"/contactus"} className="nav-link text-black">
                   ContactUs
                 </Link>
               </li>
               <li className="nav-item link-opacity-75 link-opacity-100-hover ">
-                <Link to={"/emergency"} className="nav-link text-white">
+                <Link to={"/emergency"} className="nav-link text-black">
                   Emergency
                 </Link>
               </li>
