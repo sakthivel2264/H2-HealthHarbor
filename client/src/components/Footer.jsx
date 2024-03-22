@@ -2,14 +2,13 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="rounded-5 shadow  px-4  bg-light">
+    <footer className="rounded-5 shadow  px-4  bg-light ">
       <div className="row">
         <div className="col-12 mb-4 ">
-        <h2 className="logo-h1">H²-HealthHarbor</h2>
-          <small className="d-block text-muted mx-4">&copy; {new Date().getFullYear()}</small>
+          
         </div>
 
-        <div className="col-12 col-md-6 col-lg-3 mb-4">
+        <div className="col-12 col-md-6 col-lg-3 mb-1 ">
           <h5>Our Labs</h5>
           <ul className="list-unstyled text-small">
             <li>
@@ -45,7 +44,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="col-6 col-md-6 col-lg-3 mb-4">
+        <div className="col-6 col-md-6 col-lg-3 mb-1">
           <h5>Tests</h5>
           <ul className="list-unstyled text-small">
             <li>
@@ -76,7 +75,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="col-6 col-md-6 col-lg-3 mb-4">
+        <div className="col-6 col-md-6 col-lg-3 mb-1">
           <h5>Locations</h5>
           <ul className="list-unstyled text-small">
             <li>
@@ -102,7 +101,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="col-6 col-md-6 col-lg-3 mb-4">
+        <div className="col-6 col-md-6 col-lg-3 mb-1">
           <h5>About</h5>
           <ul className="list-unstyled text-small">
             <li>
@@ -127,6 +126,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+        <h2 className="logo-h1 text-center ">H²-HealthHarbor &copy; {new Date().getFullYear()}</h2>
       </div>
     </footer>
   );

@@ -91,7 +91,7 @@ const Navbar1 = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/geneticTesting">
+                  <Link className="dropdown-item " to="/geneticTesting">
                     Genetic Testing
                   </Link>
                 </li>
@@ -101,7 +101,7 @@ const Navbar1 = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/surgery">
+                  <Link className="dropdown-item " to="/surgery">
                     Surgery
                   </Link>
                 </li>
@@ -111,7 +111,7 @@ const Navbar1 = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/healthtips">
+                  <Link className="dropdown-item " to="/healthtips">
                     Health Tips
                   </Link>
                 </li>
@@ -128,18 +128,15 @@ const Navbar1 = () => {
               <>
                 {user.isAdmin && (
                   <Link to="/admin">
-                    <button className="btn btn-warning mx-2">Admin_Panel</button>
+                    <button className="btn btn-warning mx-4">Admin_Panel</button>
                   </Link>
                 )}
                 <UserProfile />
               </>
             ) : (
               <>
-                <Link to="/signup">
-                  <button className="btn btn-warning mx-2">SignUp</button>
-                </Link>
                 <Link to="/login">
-                  <button className="btn btn-warning mx-2">Login</button>
+                  <button className="btn btn-primary  mx-4">Login</button>
                 </Link>
               </>
             )}

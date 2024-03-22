@@ -68,7 +68,6 @@ html{
   filter: drop-shadow(0 0 0 white);
   scale: 1.2;
 }
-/* #navbarDropdown{
-  font-size: 1rem;
-  color: black;
-} */
+footer{
+  border-top: 1px solid black;
+}

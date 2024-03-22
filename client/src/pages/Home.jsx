@@ -1,5 +1,5 @@
 import React from "react";
-import BottomNavbar from "../components/BottomNavbar";
+
 import Slider from "react-slick";
 import TestCarousel from "../components/CarouselCard/TestCarousel";
 import "slick-carousel/slick/slick.css";
@@ -168,7 +168,7 @@ const Home = () => {
       </div>
 
       {/* Lab Test  */}
-      <div className="bg-primary text-white my-2">
+      <div className="bg-primary-subtle  text-black my-2">
         <div className="container">
           <h1 className="text-center my-4 fw-bold p-1">
             The Excellence of
@@ -203,7 +203,6 @@ const Home = () => {
         </div>
       </div>
 
-      <BottomNavbar />
     </>
   );
 };
