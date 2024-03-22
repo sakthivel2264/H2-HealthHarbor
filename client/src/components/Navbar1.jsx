@@ -23,12 +23,7 @@ const Navbar1 = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <div className="container justify-content-center">
-            <ul className="nav justify-content-evenly navbar-nav me-auto mb-2 mb-lg-0 fw-semibold">
-              <li className="nav-item">
-                <Link to="/" className="nav-link active text-black">
-                  Home
-                </Link>
-              </li>
+            <ul className="nav justify-content-end navbar-nav me-auto mb-2 mb-lg-0 fw-semibold gap-3 ">
               <li className="nav-item">
                 <Link to="/about" className="nav-link text-black">
                   About Us
