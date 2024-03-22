@@ -137,7 +137,7 @@ const AdminAppointmentDetails = () => {
 
       {/* Emergency Contact */}
       <div className="card mb-4">
-        <div className="card-header bg-primary  text-warning">
+        <div className="card-header bg-outline-primary  text-warning">
           <h2 className="card-title mb-0">Emergency Contact</h2>
         </div>
         <div className="card-body">
