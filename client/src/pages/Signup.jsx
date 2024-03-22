@@ -6,7 +6,6 @@ import { useAuth } from "../store/auth";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import FastBot from "../components/FastBot/Fastbot";
 
 const Signup = () => {
   // Signup form logic
@@ -197,7 +196,6 @@ const Signup = () => {
           </form>
         </div>
       </div>
-      <FastBot/>
     </div>
   );
 };

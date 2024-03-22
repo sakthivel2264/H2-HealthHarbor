@@ -1,5 +1,7 @@
 import React from "react";
 import HealthTipsCard from "../components/Card/HealthTipsCard";
+import FastBot from '../components/FastBot/Fastbot'
+
 const HealthTips = () => {
   return (
     <>
@@ -66,6 +68,7 @@ const HealthTips = () => {
           />
         </div>
       </div>
+      <FastBot/>
     </>
   );
 };

@@ -15,7 +15,7 @@ const Navbar1 = () => {
     <nav className="navbar navbar-expand-lg header border-bottom sticky-top">
       <div className="container-fluid">
         <Link to="/">
-          <h2 className="logo-h1">H²-HealthHarbor</h2>
+          <strong className="logo-h1">H²-HealthHarbor</strong>
         </Link>
         <button
           className="navbar-toggler"
