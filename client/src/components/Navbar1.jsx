@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "../store/auth";
 import UserProfile from "./UserDashboard/UserProfile";
+
 const Navbar1 = () => {
   const { isLoggedIn, user } = useAuth();
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
   return (
     <nav className="navbar navbar-expand-lg header border-bottom sticky-top">
       <div className="container-fluid">
@@ -22,54 +29,57 @@ const Navbar1 = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <div className="container justify-content-center">
-            <ul className="nav justify-content-end navbar-nav me-auto mb-2 mb-lg-0 fw-semibold gap-3 ">
-              <li className="nav-item">
-                <Link to="/about" className="nav-link text-black">
-                  About Us
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to={"/doctors"} className="nav-link text-black">
-                  Doctors
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to={"/patients"} className="nav-link text-black">
-                  Patients
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to={"/appointment"} className="nav-link text-black">
-                  Appointment
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to={"/contactus"} className="nav-link text-black">
-                  ContactUs
-                </Link>
-              </li>
-              <li className="nav-item link-opacity-75 link-opacity-100-hover ">
-                <Link to={"/emergency"} className="nav-link text-black">
-                  Emergency
-                </Link>
-              </li>
-              <nav className="navbar navbar-expand-lg">
-      <div className="container-fluid">
-        <div className="collapse navbar-collapse" id="navbar2">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item dropdown">
-              <a
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+            <li className="nav-item">
+              <Link to="/about" className="nav-link">
+                About Us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/doctors" className="nav-link">
+                Doctors
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/patients" className="nav-link">
+                Patients
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/appointment" className="nav-link">
+                Appointment
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/contactus" className="nav-link">
+                ContactUs
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/emergency" className="nav-link">
+                Emergency
+              </Link>
+            </li>
+            <li
+              className="nav-item dropdown"
+              onMouseEnter={toggleDropdown}
+              onMouseLeave={toggleDropdown}
+            >
+              <Link
                 className="nav-link dropdown-toggle"
-                href="#"
+                to="#"
                 id="navbarDropdown"
                 role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                aria-expanded={isDropdownOpen ? "true" : "false"}
               >
                 Services
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              </Link>
+              <ul
+                className={`dropdown-menu dropdown-menu-end ${
+                  isDropdownOpen ? "show" : ""
+                }`}
+                aria-labelledby="navbarDropdown"
+              >
                 <li>
                   <Link className="dropdown-item" to="/bloodtest">
                     Blood Test
@@ -100,50 +110,36 @@ const Navbar1 = () => {
                     Supplements
                   </Link>
                 </li>
-                <li >
-              <Link className="dropdown-item" to="/healthtips">
-                Health Tips
-              </Link>
-            </li>
-            <li >
-              <Link className="dropdown-item" to="/offers">
-                Offers
-              </Link>
-            </li>
+                <li>
+                  <Link className="dropdown-item" to="/healthtips">
+                    Health Tips
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/offers">
+                    Offers
+                  </Link>
+                </li>
               </ul>
             </li>
-            
           </ul>
-        </div>
-      </div>
-    </nav>
-            </ul>
-            
-          </div>
-
-          <div className="d-flex justify-content-center ">
+          <div className="d-flex align-items-center">
             {isLoggedIn ? (
               <>
                 {user.isAdmin && (
-                  <Link to={"/admin"}>
-                    <button className="btn btn-warning">
-                      Admin_Panel
-                    </button>
+                  <Link to="/admin">
+                    <button className="btn btn-warning mx-2">Admin_Panel</button>
                   </Link>
                 )}
-                <UserProfile className="mx-4"/>
+                <UserProfile />
               </>
             ) : (
               <>
-                <Link to={"/signup"}>
-                  <button className="btn btn-warning btn-md px-3 mx-2">
-                    SignUp
-                  </button>
+                <Link to="/signup">
+                  <button className="btn btn-warning mx-2">SignUp</button>
                 </Link>
-                <Link to={"/login"}>
-                  <button className="btn btn-warning btn-md px-4 mx-2">
-                    Login
-                  </button>
+                <Link to="/login">
+                  <button className="btn btn-warning mx-2">Login</button>
                 </Link>
               </>
             )}
