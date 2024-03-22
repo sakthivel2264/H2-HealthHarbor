@@ -16,7 +16,7 @@ import Logout from "./pages/Logout";
 
 import Error from "./pages/Error";
 // Importing Navbar2 and all its pages
-import Navbar2 from "./components/Navbar2";
+
 import BloodTest from "./pages/BloodTest";
 import DoctorConsultation from "./pages/DoctorConsultation";
 import GeneticTesting from "./pages/GeneticTesting";
@@ -46,7 +46,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar1 />
-        <Navbar2 />
+    
 
         <Routes>
           {/* Navbar 1 Routes */}

@@ -54,7 +54,71 @@ const Navbar1 = () => {
                   Emergency
                 </Link>
               </li>
+              <nav className="navbar navbar-expand-lg">
+      <div className="container-fluid">
+        <div className="collapse navbar-collapse" id="navbar2">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <Link className="dropdown-item" to="/bloodtest">
+                    Blood Test
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/xray">
+                    X-Rays & Scans
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/geneticTesting">
+                    Genetic Testing
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/doctorconsultation">
+                    Doctor Consultation
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/surgery">
+                    Surgery
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/supplement">
+                    Supplements
+                  </Link>
+                </li>
+                <li >
+              <Link className="dropdown-item" to="/healthtips">
+                Health Tips
+              </Link>
+            </li>
+            <li >
+              <Link className="dropdown-item" to="/offers">
+                Offers
+              </Link>
+            </li>
+              </ul>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
             </ul>
+            
           </div>
 
           <div className="d-flex justify-content-center ">
