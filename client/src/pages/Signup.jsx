@@ -63,11 +63,7 @@ const Signup = () => {
 
   // Signup Carousel
   const slides = [
-    {
-      image: "/images/Login_Signup/boxicon.png",
-      text: " Real-Time Packages",
-      heading: "Customized",
-    },
+    
     {
       image: "/images/Login_Signup/complete.png",
       text: " Honest Price Guaranteed",

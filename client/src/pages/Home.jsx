@@ -1,17 +1,12 @@
 import React from "react";
 import BottomNavbar from "../components/BottomNavbar";
-import MainCarousel from "../components/CarouselCard/MainCarousel";
 import Slider from "react-slick";
 import TestCarousel from "../components/CarouselCard/TestCarousel";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Hero from './Hero.jsx'
 
 const Home = () => {
-  const carouselImages = [
-    "/images/carousel/carousel.jpg",
-    "/images/carousel/carosel2.jpg",
-    "/images/carousel/carosel3.jpg",
-  ];
 
   const cardsData = [
     {
@@ -130,7 +125,7 @@ const Home = () => {
     <>
       {/* Main Carousel Cards */}
       <div>
-        <MainCarousel images={carouselImages} />
+        <Hero/>
       </div>
 
       {/* Cards */}
