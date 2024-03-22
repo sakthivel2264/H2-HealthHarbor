@@ -31,21 +31,21 @@ const Surgery = () => {
       <div className="carousel-inner ">
         <div className="carousel-item active  h-50">
           <img
-            src="/images/Surgery/H² - HealthHarborsurgery1.png"
+            src="/images/Surgery/Healthifysurgery1.png"
             alt="surgery"
             className="d-block w-100"
           />
         </div>
         <div className="carousel-item">
           <img
-            src="/images/Surgery/H² - HealthHarborsurgery2.png"
+            src="/images/Surgery/Healthifysurgery2.png"
             alt=""
             className="d-block w-100"
           />
         </div>
         <div className="carousel-item">
           <img
-            src="/images/Surgery/H² - HealthHarborsurgery3.png"
+            src="/images/Surgery/Healthifysurgery3.png"
             alt=""
             className="d-block w-100"
           />

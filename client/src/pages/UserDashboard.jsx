@@ -31,7 +31,7 @@ const UserDashboard = () => {
               <UserDashboardCard
                 imageSrc="/images/userDashboard/wallet-svg-2.svg"
                 altText="my report"
-                title="H² - HealthHarbor Wallets"
+                title="Healthify Wallets"
               />
             </div>
             <div className="col col-md-6 col-lg-4">
