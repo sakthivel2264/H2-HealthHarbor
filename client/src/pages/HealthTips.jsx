@@ -1,6 +1,6 @@
 import React from "react";
+import FastBot from "../components/FastBot/Fastbot"
 import HealthTipsCard from "../components/Card/HealthTipsCard";
-import FastBot from '../components/FastBot/Fastbot'
 
 const HealthTips = () => {
   return (

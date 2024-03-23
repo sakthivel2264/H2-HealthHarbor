@@ -124,7 +124,7 @@ const AdminUpdate = () => {
 
             <button
               type="submit"
-              className="btn btn-primary w-75 d-block mx-auto"
+              className="btn btn-outline-primary w-75 d-block mx-auto"
             >
               Submit
             </button>

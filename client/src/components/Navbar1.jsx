@@ -36,6 +36,11 @@ const Navbar1 = () => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link to="/features" className="nav-link">
+                Features
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link to="/doctors" className="nav-link">
                 Doctors
               </Link>
@@ -136,7 +141,10 @@ const Navbar1 = () => {
             ) : (
               <>
                 <Link to="/login">
-                  <button className="btn btn-primary  mx-4">Login</button>
+                  <button className="btn btn-outline-primary  mx-4">Login</button>
+                </Link>
+                <Link to="/signup">
+                  <button className="btn btn-outline-primary  mx-1">Sign up</button>
                 </Link>
               </>
             )}

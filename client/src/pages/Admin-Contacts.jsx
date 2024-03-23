@@ -94,7 +94,7 @@ const AdminContacts = () => {
                   <td>{curContact.attachments}</td>
                   <td>
                     <button
-                      className="btn btn-danger"
+                      className="btn btn-outline-danger"
                       onClick={() => deleteContact(curContact._id)}
                     >
                       Delete

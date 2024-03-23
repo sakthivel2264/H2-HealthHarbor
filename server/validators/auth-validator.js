@@ -11,8 +11,8 @@ const loginSchema = z.object({
     password: z
         .string({ required_error: "Password is Required" })
         .trim()
-        .min(10, { message: "Password must be atleast of 10 characters" })
-        .max(24, { message: "Password must not be more that 12 characters" })
+        .min(8, { message: "Password must be atleast of 8 characters" })
+        .max(12, { message: "Password must not be more that 12 characters" })
 })
 const signupSchema = loginSchema.extend({
     username: z

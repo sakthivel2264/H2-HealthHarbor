@@ -18,7 +18,7 @@ const DoctorProfile = ({
   languagesSpoken,
 }) => {
   return (
-    <div className="container mt-5 mb-5">
+    <div className="container mt-5 mb-5 ">
       <div className="card border shadow-lg">
         <div className="row g-0">
           <div className="col-md-4 d-flex align-items-center justify-content-center">

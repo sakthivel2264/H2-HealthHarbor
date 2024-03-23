@@ -7,6 +7,7 @@ import { useAuth } from "../store/auth";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+
 const Signup = () => {
   // Signup form logic
   const [user, setUser] = useState({
