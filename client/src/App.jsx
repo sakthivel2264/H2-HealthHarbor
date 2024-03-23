@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Loading from "./components/Loading";
 import Navbar1 from "./components/Navbar1"
 import Footer from "./components/Footer"
-import Layout from "./pages/Aside/Layout";
+const Layout = React.lazy(()=> import("./pages/Aside/Layout"))
 
 const Home = React.lazy(() => import("./pages/Home"));
 const About = React.lazy(() => import("./pages/About"));

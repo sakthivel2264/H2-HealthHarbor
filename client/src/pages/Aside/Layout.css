@@ -27,15 +27,13 @@ aside{
     align-items: center;
     position: sticky;
     top: 65px;
-    height: 350px;
+    height: 450px;
 
 }
 aside>h2{
     font-size: 2rem;
     color:black;
     cursor: default;
-    text-decoration: underline !important;
-    text-decoration-color:red !important;
 }
 main{
     flex: 3;

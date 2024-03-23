@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const DoctorConsultationCard = ({
   imgSrc,
@@ -39,9 +40,8 @@ const DoctorConsultationCard = ({
               <button className="btn btn-warning me-2" type="button">
                 View Profile
               </button>
-              <button className="btn btn-primary" type="button">
-                Book an Appointment
-              </button>
+               <Link to="/appointment"><button className="btn btn-primary" type="button">Book an Appointment</button></Link>
+              
             </div>
           </div>
         </div>

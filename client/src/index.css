@@ -71,6 +71,12 @@ html{
 footer{
   border-top: 1px solid black;
 }
+.logo-h1{
+  font-size: xx-large;
+}
+.logo-h2{
+  font-size: 1rem;
+}
 .profile{
   display: flex;
   justify-content: center;

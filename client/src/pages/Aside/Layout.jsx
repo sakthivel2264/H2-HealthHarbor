@@ -4,6 +4,8 @@ import News from './components/News';
 import Hospitals from './components/Hospitals';
 import MentalHealth from './components/MentalHealth';
 import Chatbot from './components/Chatbot';
+import Prescription from './components/Prescription';
+
 const Layout = () => {
   const [selectedOption, setSelectedOption] = useState("news");
 
@@ -22,6 +24,9 @@ const Layout = () => {
         return <Chatbot/>;
       case "mental-health":
         return <MentalHealth/>;
+      case "Prescription":
+        return <Prescription/>;
+        
       default:
         return null;
     }
@@ -37,6 +42,7 @@ const Layout = () => {
           <li className="button" onClick={() => handleOptionChange("hospitals")}><span>Location of Hospitals</span></li>
           <li className="button" onClick={() => handleOptionChange("chatbot")}><span>ChatBot</span></li>
           <li className="button" onClick={() => handleOptionChange("mental-health")}><span>Mental Health Care</span></li>
+          <li className="button" onClick={() => handleOptionChange("Prescription")}><span>PrescriptionAnalyse</span></li>
         </ol>
       </aside>
 

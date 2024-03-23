@@ -47,7 +47,7 @@ const Hospitals = () => {
       </form>
 
       {userLocation ? (
-        <div style={{ width: '100%', height: '400px' }} >
+        <div style={{ width: '100%', height: '100%' ,"marginBottom":"20px"}} >
           <iframe
             width="100%"
             height="100%"

@@ -500,11 +500,14 @@ const Appointment = () => {
           </div>
 
           {/* Submit Button */}
-          <button type="submit" className="btn btn-primary mb-4">
+          <button type="submit" className="btn btn-primary mb-4 ">
             Submit Appointment
           </button>
+          <a href="https://meet.google.com/" target="_blank" className="btn btn-outline-primary mb-4 mx-5">Connect with Meet</a>
         </form>
+        
       </div>
+
       <FastBot/>
     </>
   );

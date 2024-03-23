@@ -126,7 +126,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <h2 className="logo-h1 text-center ">H²-HealthHarbor &copy; {new Date().getFullYear()}</h2>
+        <h2 className="logo-h2 text-center ">H²-HealthHarbor &copy; {new Date().getFullYear()}</h2>
       </div>
     </footer>
   );
